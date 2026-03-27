@@ -1,6 +1,9 @@
 id,titulo,status,responsavel,prioridade
-1,Erro na importaá∆o de pedidos,Aberto,Ana,Alta
-2,Finalizaá∆o de carga pendente,Fechado,Carlos,MÇdia
-3,Bloqueio de usu†rio,Aberto,Jo∆o,Baixa
-4,Falha no dashboard log°stico,Fechado,Marina,Alta
-5,Erro no cadastro de motorista,Aberto,Lucas,MÇdia
+1,Erro na importa√ß√£o de pedidos,Aberto,Ana,Alta
+2,Finaliza√ß√£o de carga pendente,Fechado,Carlos,M√©dia
+3,Bloqueio de usu√°rio,Aberto,Jo√£o,Baixa
+4,Falha no dashboard log√≠stico,Fechado,Marina,Alta
+5,Erro no cadastro de motorista,Aberto,Lucas,M√©dia
+6,Instabilidade no m√≥dulo de cargas,Aberto,Fernanda,Alta
+7,Problema na integra√ß√£o com API,Fechado,Rafael,M√©dia
+8,Permiss√£o indevida de acesso,Aberto,Bruna,Alta

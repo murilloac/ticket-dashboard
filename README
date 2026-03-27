@@ -1,24 +1,58 @@
-# Dashboar de Tickets
+# Ticket Dashboard DevOps
 
-Projeto de portfólio, utilizando uma aplicação em Python + Streamlit para simular um dashboard operacional de tickets.
+Projeto de portfólio, utilizando uma aplicação em **Python + Streamlit** para simular um dashboard operacional de tickets.
 
-## 🚀 Tecnologias
+Este projeto foi construído com foco em:
 
-- Python
+- organização de código
+- conteinerização com Docker
+- testes automatizados
+- base para CI/CD
+- boas práticas para evolução em ambiente DevOps
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- Python 3.11
 - Streamlit
 - Pandas
+- Pytest
 - Docker
 - Docker Compose
+- GitHub Actions (CI)
 
-## 📌 Objetivo
+---
 
-Demonstrar a conteinerização de uma aplicação Python e a organização de um projeto preparado para práticas DevOps.
+## 📌 Objetivo do Projeto
 
-## ▶️ Como executar localmente
+Demonstrar a estruturação de uma aplicação simples, porém organizada, preparada para práticas DevOps, incluindo:
 
-### Sem Docker
+- execução local
+- conteinerização
+- testes automatizados
+- pipeline de integração contínua
+- futura evolução para deploy em Kubernetes
+
+---
+
+## 📁 Estrutura do Projeto
 
 ```bash
-pip install -r app/requirements.txt
-streamlit run app/main.py
+ticket-dashboard-devops/
+├── app/
+│   ├── main.py
+│   ├── utils.py
+│   ├── data/
+│   │   └── tickets.csv
+│   └── requirements.txt
+├── tests/
+│   └── test_utils.py
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── Dockerfile
+├── docker-compose.yml
+├── README.md
+└── Makefile
 ```
