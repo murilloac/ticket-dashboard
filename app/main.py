@@ -4,7 +4,7 @@ from utils import load_data, filter_data, calculate_metrics
 
 st.set_page_config(page_title="Ticket Dashboard", layout="wide")
 
-st.title("📊 Ticket Dashboard - DevOps Portfolio Project")
+st.title("📊 Ticket Dashboard")
 st.markdown("Dashboard operacional de tickets com foco em organização, automação e boas práticas DevOps.")
 
 df = load_data("app/data/tickets.csv")
