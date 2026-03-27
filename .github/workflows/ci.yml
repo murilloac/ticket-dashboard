@@ -1,4 +1,4 @@
-name: CI/CD - Ticket Dashboard
+name: CI/CD Ticket Dashboard
 
 on:
   push:
