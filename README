@@ -1,0 +1,24 @@
+# Dashboar de Tickets
+
+Projeto de portfólio, utilizando uma aplicação em Python + Streamlit para simular um dashboard operacional de tickets.
+
+## 🚀 Tecnologias
+
+- Python
+- Streamlit
+- Pandas
+- Docker
+- Docker Compose
+
+## 📌 Objetivo
+
+Demonstrar a conteinerização de uma aplicação Python e a organização de um projeto preparado para práticas DevOps.
+
+## ▶️ Como executar localmente
+
+### Sem Docker
+
+```bash
+pip install -r app/requirements.txt
+streamlit run app/main.py
+```
