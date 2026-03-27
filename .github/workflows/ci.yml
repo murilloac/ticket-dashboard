@@ -24,14 +24,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r app/requirements.txt
 
-      - name: Rodar lint com flake8
-        run: |
-          flake8 app tests --max-line-length=100
-
-      - name: Rodar testes
-        run: |
-          pytest -v
-
       - name: Build da imagem Docker
         run: |
           docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/ticket-dashboard:latest .

@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ticket-dashboard
+  namespace: ticket-dashboard
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ticket-dashboard
+  template:
+    metadata:
+      labels:
+        app: ticket-dashboard
+    spec:
+      containers:
+        - name: ticket-dashboard
+          image: SEU_USUARIO_DOCKERHUB/ticket-dashboard-devops:latest
+          ports:
+            - containerPort: 8501
+          envFrom:
+            - configMapRef:
+                name: ticket-dashboard-config
