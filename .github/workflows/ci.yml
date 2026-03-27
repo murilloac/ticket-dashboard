@@ -26,7 +26,7 @@ jobs:
 
       - name: Build da imagem Docker
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/ticket-dashboard:latest .
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}murilloac/ticket-dashboard:latest .
 
       - name: Login no Docker Hub
         if: github.event_name == 'push'
